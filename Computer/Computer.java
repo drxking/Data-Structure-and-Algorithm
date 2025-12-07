@@ -11,10 +11,11 @@ public class Computer {
     private int pointer = -1;
 
     Computer(String name, int dimension, String layout, String laptopColor) {
+        this.name = name;
         this.dimension = dimension;
         this.layout = layout;
         this.laptopColor = laptopColor;
-        this.name = name;
+        System.out.println(name + " is instanciated");
     }
 
     public void Display(String inp) {
