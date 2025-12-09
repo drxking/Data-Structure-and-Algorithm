@@ -38,14 +38,14 @@ public class LinearQueue {
 
     void printElementsInQueue() {
         for (int i = 0; i < this.front; i++) {
-            System.out.printf("[ ]   ");
+            System.out.printf("[  ]   ");
 
         }
         for (int i = this.front; i <= this.rear; i++) {
             System.out.printf("[%d]   ", this.arr[i]);
         }
         for (int i = this.rear + 1; i < 5; i++) {
-            System.out.printf("[ ]   ");
+            System.out.printf("[  ]   ");
 
         }
         System.out.print("\n");
