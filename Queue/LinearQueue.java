@@ -1,7 +1,7 @@
 package Queue;
 
 public class LinearQueue {
-    public int[] arr = new int[5];
+    private int[] arr = new int[5];
     private int front = -1;
     private int rear = -1;
     private int max = 5;
