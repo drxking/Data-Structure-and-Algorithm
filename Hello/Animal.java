@@ -1,6 +1,6 @@
 package Hello;
 
-public class Animal {
+public class Animal{
     public String food;
     protected int eyes = 2;
 
