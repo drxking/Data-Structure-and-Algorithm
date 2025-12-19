@@ -1,5 +1,5 @@
 package Areas;
 
 abstract public class Area{
-    abstract int area();
+    abstract double area();
 }

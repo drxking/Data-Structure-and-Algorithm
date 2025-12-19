@@ -2,18 +2,17 @@ package Areas;
 
 public class Rectangle extends Area {
 
-    public int length;
-    public int breadth;
+    public double length;
+    public double breadth;
 
-    Rectangle(int length,int breadth){
+    Rectangle(double length,double breadth){
         this.length = length;
         this.breadth = breadth;
     }
 
 
-    int area() {
+    double area() {
         return length * breadth;
     }
 
 }
-

@@ -1,15 +1,15 @@
 package Areas;
 
 public class Traingle extends Area {
-    public int base;
-    public int height;
+    public double base;
+    public double height;
 
-    Traingle(int base,int height){
+    Traingle(double base,double height){
         this.base = base;
         this.height = height;
     }
 
-    int area(){
+    double area(){
         return(base * height) /2;
     }
 }

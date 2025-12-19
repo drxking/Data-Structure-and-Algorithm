@@ -6,5 +6,7 @@ public class Main {
         System.out.println(r1.area());
         Traingle t1 = new Traingle(10, 20);
         System.out.println(t1.base);
+        Circle c1 = new Circle(2);
+        System.out.println(c1.area());
     }
 }
